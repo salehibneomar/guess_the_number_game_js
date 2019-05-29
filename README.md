@@ -1,1 +1,3 @@
-# guess_the_number_game_js
+Developed by: Saleh Ibne Omar.
+
+Date created: 12 Februray 2019.
