@@ -1,0 +1,191 @@
+/*
+Developed by: Saleh Ibne Omar
+Date created: 12 Februray 2019
+*/
+body{
+    margin: 0%;
+    padding: 0%;
+    background: rgba(77,182,172 ,1);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.conatiner{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.game-board{
+    width: 100%;
+    height: 520px !important;
+    margin-top: 50px;
+    padding: 0;
+    background: rgba(236,239,241 ,1);
+    overflow: hidden;
+    border: 1px solid rgba(236,239,241 ,1);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    animation-duration: 1.8s;
+}
+
+h1{
+    width: 100%;
+    float: left;
+    color: rgba(52,73,94 ,1);
+    padding: 20px 5px !important;
+    text-align: center;
+    border-bottom: 1px solid rgba(77,182,172 ,1);
+    font-family: inherit !important;
+
+}
+
+.level{
+    width: 60%;
+    overflow: hidden;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+h3{
+    color: rgba(52,73,94 ,1);
+    text-align: center;
+    padding: 10px 0 !important;
+    margin: 0 0 15px 0;
+    font-family: inherit !important;
+    font-size: 12pt !important;
+    word-spacing: 5px; 
+    font-weight: 400;
+}
+
+.three-levels{
+    width: 30%;
+    margin-left: 3%;
+    float: left;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.button{
+    display: block !important;
+    width: 100% !important;
+    font-family: inherit !important;
+}
+
+.input-con{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.input{
+    width: 100%;
+    margin-top: 10px;
+    height: 50px;
+    font-family: inherit !important;
+}
+
+.message-con{
+    width: 80%;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h4{
+    color: rgba(52,73,94 ,1);
+    text-align: center;
+    padding: 0 !important;
+    margin: 10px 0 0 0 !important;
+    font-family: inherit !important;
+}
+
+span{
+    display: block !important;
+}
+
+.btn{
+    margin-top: 15px !important;
+    width: 100% !important;
+    font-family: inherit !important;
+}
+
+#redRestart,
+#greenRestart{
+    display: none;
+}
+
+p{
+    width: 100%;
+    margin-top: 80px;
+    color: rgba(52,73,94 ,1);
+    text-align: center;
+    font-family: inherit !important;
+    font-size: 10pt;
+    font-weight: 700;
+}
+
+
+@media all and (max-width: 1300px){
+    .conatiner{
+        width: 60%;
+    }
+}
+
+@media all and (max-width: 1200px){
+    .conatiner{
+        width: 70%;
+    }
+}
+
+@media all and (max-width: 1100px){
+    .conatiner{
+        width: 80%;
+    }
+}
+
+@media all and (max-width: 900px){
+    .conatiner{
+        width: 90%;
+    }
+}
+
+@media all and (max-width: 760px){
+    h1{
+        font-size: 16pt !important;
+    }
+    h3{
+        font-size: 10pt !important;
+    }
+    .level{
+        width: 80%;
+    }
+    .input-con{
+        width: 60%;
+    }
+    
+}
+
+@media all and (max-width: 560px){
+    .game-board{
+        margin-top: 30px;
+    }
+    .level{
+        width: 90%;
+    }
+    .input-con{
+        width: 80%;
+    }
+    
+}
+
+@media all and (max-width: 420px){
+    .conatiner{
+        width: 98%;
+    }
+    .level{
+        width: 100%;
+    }
+    
+}
